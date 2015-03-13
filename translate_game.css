@@ -1,0 +1,47 @@
+html {
+    background-color: #eee;
+	font-family: Helvetica, Trebuchet MS, sans-serif;
+}
+
+body *{
+	margin: 10px;
+}
+
+h1 {
+	color: grey;
+}
+
+h1 span {
+	color: black;
+}
+
+#translate_game {
+	background-color: white;
+	border: solid 1px black;
+}
+	
+.table_heading{
+	font-size: 25px;	
+	color: grey;
+}
+
+#table {
+	text-align: left;
+	font-size: 25px;
+}
+
+input {
+	margin-left: 0px;
+}
+
+.correct {
+	color: blue;
+}
+
+.incorrect {
+	color: red;
+}
+
+.incorrect td:nth-child(3) {
+	text-decoration: line-through;
+}
